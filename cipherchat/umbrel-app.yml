@@ -14,6 +14,9 @@ releaseNotes: >-
   Cipherchat has arrived to the Umbrel app store!
 developer: secondl1ght
 website: https://cipherchat.app
+dependencies:
+  - lightning
+  - lightning-terminal
 repo: https://github.com/secondl1ght/cipherchat
 support: https://t.me/cipherchat_app
 port: 2140

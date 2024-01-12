@@ -15,6 +15,7 @@ releaseNotes: >-
 developer: secondl1ght
 website: https://cipherchat.app
 dependencies:
+  - bitcoin
   - lightning
   - lightning-terminal
 repo: https://github.com/secondl1ght/cipherchat

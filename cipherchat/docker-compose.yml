@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: cipherchat_web_1
+      APP_PORT: 3000
+  
+  web:
+    image: secondl1ght/cipherchat:v1.0.3
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 0.0.0.0:3000

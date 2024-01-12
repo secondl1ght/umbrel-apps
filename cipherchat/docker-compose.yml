@@ -11,4 +11,4 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     environment:
-      UMBREL: true
+      UMBREL: 'true'
